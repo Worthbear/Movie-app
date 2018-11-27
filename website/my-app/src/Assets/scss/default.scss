@@ -1,0 +1,89 @@
+body{
+height: 60vw;
+font-family: helvetica, sans-serif;
+font-weight: 300;
+background-image: url(./bg.png);
+background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+background-color: #0b0c10;
+color: #c5c6c7;
+text-transform: uppercase;
+}
+.header{
+text-align: center;
+opacity: .9;
+}
+
+.logo{
+  align-items: center;
+}
+
+.tagline{
+  text-align: center;
+  opacity: 0.8;
+}
+
+.main{
+
+text-align: center;
+display: inline-grid;
+grid-template-columns: repeat(4,1fr);
+grid-column-gap: 10px;
+}
+
+.poster{
+grid-column: 2/3
+
+}
+.image{
+border-radius: 30px;
+background-color:#1f2833;
+padding: 10px;
+
+}
+.content{
+padding: 10px;
+background-color:#1f2833;
+width:500px;
+border-radius: 30px;
+grid-column: 3/4;
+opacity: .8;
+}
+.content p {
+  font-size: 22px;
+opacity: 1;
+}
+.btn-area{
+padding-top:15px;
+margin:0 auto;
+text-align: center;
+
+}
+button{
+  cursor: pointer;
+}
+button:active{
+  outline-style: none;
+}
+.btn{
+border-style: none;
+font-size: 24px;
+font-weight: bold;
+color: #c5c6c7;
+text-transform: uppercase;
+text-align:center;
+background: none;
+border: solid #45a29e 6px;
+margin: auto;
+width: 25%;
+border-radius: 30px;
+height:70px
+
+}
+
+.btn:hover{
+transition: 1s;
+background: #45a29e;
+border-style: none;
+}
